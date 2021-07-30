@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<style>
+
+    body {
+        font-family: arial, sans-serif;
+        line-height: 1.6;
+        
+    }
+
+    .logoo {
+        margin: 0;
+        position: absolute;
+        top: 36%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    .search:hover {
+        box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28);
+    }
+
+    .search {
+        display: flex;
+        border-radius: 24px;
+        border: 1px solid #dfe1e5;
+        margin: auto;
+        background: url(images/google-search.png) no-repeat scroll 15px 10px, url(images/google-microphone.png) no-repeat calc(100% - 12px);
+        padding-left: 50px;
+        padding-right: 50px;
+       
+    }
+
+    .navbar {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        font-size: 13px;
+    }
+
+    .navbarr {
+        display: inline;
+        float: left;
+        padding: 10px;
+        color: #70757a;
+    }
+
+    .footer {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: #f2f2f2;
+        border-top: 1px solid #e4e4e4;
+        bottom: 0px;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .footerr {
+        display: inline;
+        float: left;
+        padding: 10px;
+        color: #70757a;
+    }
+
+    #round {
+        border-radius: 30px;
+        width: 580px;
+        height: 45px;
+    
+    }
+    
+    #sign-in {
+        color: white;
+        background-color: #4285f4;
+        height: 30px;
+        width: 70px;
+        border-radius: 5px;
+        border: 1px;
+    }
+
+    .search-wrapper {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        
+    }
+
+    .search-buttons {
+        display:flex;
+        -ms-transform: translate(-50%, -60%);
+        transform: translate(-50%, -60%);
+        gap: 12px;
+        position: absolute;
+        left: 50%;
+        top: 60%;
+    }
+
+    .button-search {
+        height: 36px;
+        padding-left: 16px;
+        padding-right: 16px;
+        color:rgb(95, 99, 104);
+        background-color: rgb(242, 242, 242);
+        border: solid 1px rgb(242, 242, 242);
+        border-radius: 4px;
+    }
+
+    .button-search:hover {
+        border: solid 1px #c6c6c6;
+        color: black;
+        cursor: pointer;
+    }
+
+    .navbarr:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .footerr:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    #sign-in:hover {
+        cursor: pointer;
+    }
+
+    #footerrr {
+        margin-left: 20px;
+    }
+
+    #footerrrr {
+        margin-right: 20px;
+    }
+
+</style>
+
+
+<body>
+    <ul class="navbar">
+        <li class="navbarr">About</li>
+        <li class="navbarr">Store</li>
+        <li class="navbarr" style="float:right;"><button id="sign-in" type="button"><strong>Sign in</strong></button></li>
+        <li class="navbarr" style="float:right;"><i class="material-icons">home</i></li>
+        <li class="navbarr" style="float:right;">Gmail</li>
+    </ul>
+
+<div class="logoo">
+<img style="height:92px;width:272px;" class="logo"
+src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">    
+</img>
+</div>
+
+<div class="search-wrapper">
+    <input id="round" class="search" type="text" placeholder= "" style="width:582px;height:44px"></input>
+</div>
+
+<div class="search-buttons">
+    <a href="#"><button class="button-search">Google Search</button></a>
+    <a href="#"><button class="button-search">I'm Feeling Lucky</button></a>
+</div>
+
+<ul class="footer">
+    <li id="footerrr" class="footerr">Advertising</li>
+    <li class="footerr" >Business</li>
+    <li class="footerr">How Search Works</li>
+    <li id="footerrrr" class="footerr" style="float:right;">Settings</li>
+    <li class="footerr" style="float:right;">Terms</li>
+    <li class="footerr" style="float:right;">Privacy</li>
+</ul>
+
+
+
+</body>
+</html>
